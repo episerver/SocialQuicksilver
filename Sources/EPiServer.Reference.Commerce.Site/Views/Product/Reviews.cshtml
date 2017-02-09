@@ -1,0 +1,22 @@
+﻿@model EPiServer.Reference.Social.Reviews.ViewModels.ReviewsViewModel
+<div>
+    <h3>
+        <span class="label label-primary">@Model.Statistics.OverallRating.ToString("N1")</span>
+        Read the most recent @Model.Statistics.TotalRatings reviews...
+    </h3>
+</div>
+
+@foreach (var review in Model.Reviews) 
+{
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4><span class="label label-default">@review.Rating.ToString("N1")</span> @review.Title</h4>
+        </div>
+        <div class="panel-body">
+            <strong>By @review.Nickname (@review.Location) on @review.AddedOn.ToString("MMMM dd, yyyy"):</strong>
+            <p>
+                @review.Body
+            </p>            
+        </div>
+    </div>
+}
