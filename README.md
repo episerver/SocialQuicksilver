@@ -3,20 +3,21 @@
 [![GitHub version](https://badge.fury.io/gh/episerver%2FQuicksilver.svg)](https://github.com/episerver/Quicksilver)
 [![License](http://img.shields.io/:license-apache-blue.svg?style=flat-square)](http://www.apache.org/licenses/LICENSE-2.0.html)
 
-This repository is the starter site for the EPiServer Commerce reference implementation, aka "Quicksilver".
+This repository contains a clone of the Episerver starter site *Quicksilver*. It has been modified to demonstrate the features of Episerver Social.
 
-Roadmap
--------------
+See the Installation section below for details on setup and configuration.
 
-More features will be added over time.
-The following is a list of features to be added in the future:
+Releases
+------------
+#### February 10, 2017
+* **Product Reviews**
+  * Product reviews have been added to product pages appearing within the site, allowing visitors to rate and comment on products. It demonstrates a combination of Episerver Social's Comments and Ratings features as well as the platform's composition and modeling capabilities.
 
-* In-store pickup.
-* Package and bundle support.
-* Multi-payment support.
 
 Installation
 ------------
+
+### Site Setup
 
 1.  Configure Visual Studio to add this package source: http://nuget.episerver.com/feed/packages.svc/. This allows missing packages to be downloaded, when the solution is built.
 2.  Open solution and build to download nuget package dependencies.
@@ -27,6 +28,11 @@ Installation
 *By default SetupDatabases.cmd use the default SQL Server instance. Change this line `set sql=sqlcmd -S . -E` by replacing `.` with the instance name to use different instance.
 
 Note: SQL scripts are executed using Windows authentication so make sure your user has sufficient permissions.
+
+### Episerver Social Configuration
+
+1. In Visual Studio, open the **web.config** file found in the root of the **EPiServer.Reference.Commerce.Site** project.
+2. Update this file with your Episerver Social configuration, as described in the [Getting Connected](http://world.episerver.com/documentation/developer-guides/social/social_platform-overview/Installing-Episerver-Social/#GettingConnected) section of the developer guide.
 
 Styling
 -------
