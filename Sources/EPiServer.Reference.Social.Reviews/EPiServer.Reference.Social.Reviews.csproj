@@ -31,130 +31,130 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EPiServer.ApplicationModules, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiServer.Framework.10.2.0\lib\net45\EPiServer.ApplicationModules.dll</HintPath>
+      <HintPath>..\..\packages\EPiServer.Framework.10.2.0\lib\net45\EPiServer.ApplicationModules.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="EPiServer.Data, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiServer.Framework.10.2.0\lib\net45\EPiServer.Data.dll</HintPath>
+      <HintPath>..\..\packages\EPiServer.Framework.10.2.0\lib\net45\EPiServer.Data.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="EPiServer.Data.Cache, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiServer.Framework.10.2.0\lib\net45\EPiServer.Data.Cache.dll</HintPath>
+      <HintPath>..\..\packages\EPiServer.Framework.10.2.0\lib\net45\EPiServer.Data.Cache.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="EPiServer.Events, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiServer.Framework.10.2.0\lib\net45\EPiServer.Events.dll</HintPath>
+      <HintPath>..\..\packages\EPiServer.Framework.10.2.0\lib\net45\EPiServer.Events.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="EPiServer.Framework, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiServer.Framework.10.2.0\lib\net45\EPiServer.Framework.dll</HintPath>
+      <HintPath>..\..\packages\EPiServer.Framework.10.2.0\lib\net45\EPiServer.Framework.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="EPiServer.Licensing, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiServer.Framework.10.2.0\lib\net45\EPiServer.Licensing.dll</HintPath>
+      <HintPath>..\..\packages\EPiServer.Framework.10.2.0\lib\net45\EPiServer.Licensing.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="EPiServer.Social.Comments, Version=1.2.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiServer.Social.Comments.1.2.0\lib\EPiServer.Social.Comments.dll</HintPath>
+      <HintPath>..\..\packages\EPiServer.Social.Comments.1.2.0\lib\EPiServer.Social.Comments.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="EPiServer.Social.Comments.Core, Version=1.2.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiServer.Social.Comments.1.2.0\lib\EPiServer.Social.Comments.Core.dll</HintPath>
+      <HintPath>..\..\packages\EPiServer.Social.Comments.1.2.0\lib\EPiServer.Social.Comments.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="EPiServer.Social.Comments.Rest, Version=1.2.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiServer.Social.Comments.1.2.0\lib\EPiServer.Social.Comments.Rest.dll</HintPath>
+      <HintPath>..\..\packages\EPiServer.Social.Comments.1.2.0\lib\EPiServer.Social.Comments.Rest.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="EPiServer.Social.Comments.Rest.Contracts, Version=1.2.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiServer.Social.Comments.1.2.0\lib\EPiServer.Social.Comments.Rest.Contracts.dll</HintPath>
+      <HintPath>..\..\packages\EPiServer.Social.Comments.1.2.0\lib\EPiServer.Social.Comments.Rest.Contracts.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="EPiServer.Social.Common, Version=1.2.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiServer.Social.Common.1.2.0\lib\EPiServer.Social.Common.dll</HintPath>
+      <HintPath>..\..\packages\EPiServer.Social.Common.1.2.0\lib\EPiServer.Social.Common.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="EPiServer.Social.Common.Rest, Version=1.2.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiServer.Social.Common.Rest.1.2.0\lib\EPiServer.Social.Common.Rest.dll</HintPath>
+      <HintPath>..\..\packages\EPiServer.Social.Common.Rest.1.2.0\lib\EPiServer.Social.Common.Rest.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="EPiServer.Social.Common.Rest.Configuration, Version=1.2.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiServer.Social.Common.Rest.1.2.0\lib\EPiServer.Social.Common.Rest.Configuration.dll</HintPath>
+      <HintPath>..\..\packages\EPiServer.Social.Common.Rest.1.2.0\lib\EPiServer.Social.Common.Rest.Configuration.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="EPiServer.Social.Common.Rest.Contracts, Version=1.2.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiServer.Social.Common.Rest.1.2.0\lib\EPiServer.Social.Common.Rest.Contracts.dll</HintPath>
+      <HintPath>..\..\packages\EPiServer.Social.Common.Rest.1.2.0\lib\EPiServer.Social.Common.Rest.Contracts.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="EPiServer.Social.Ratings, Version=1.2.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiServer.Social.Ratings.1.2.0\lib\EPiServer.Social.Ratings.dll</HintPath>
+      <HintPath>..\..\packages\EPiServer.Social.Ratings.1.2.0\lib\EPiServer.Social.Ratings.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="EPiServer.Social.Ratings.Core, Version=1.2.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiServer.Social.Ratings.1.2.0\lib\EPiServer.Social.Ratings.Core.dll</HintPath>
+      <HintPath>..\..\packages\EPiServer.Social.Ratings.1.2.0\lib\EPiServer.Social.Ratings.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="EPiServer.Social.Ratings.Rest, Version=1.2.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiServer.Social.Ratings.1.2.0\lib\EPiServer.Social.Ratings.Rest.dll</HintPath>
+      <HintPath>..\..\packages\EPiServer.Social.Ratings.1.2.0\lib\EPiServer.Social.Ratings.Rest.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="EPiServer.Social.Ratings.Rest.Contracts, Version=1.2.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiServer.Social.Ratings.1.2.0\lib\EPiServer.Social.Ratings.Rest.Contracts.dll</HintPath>
+      <HintPath>..\..\packages\EPiServer.Social.Ratings.1.2.0\lib\EPiServer.Social.Ratings.Rest.Contracts.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+      <HintPath>..\..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="StructureMap, Version=3.1.9.463, Culture=neutral, PublicKeyToken=e60ad81abae3c223, processorArchitecture=MSIL">
-      <HintPath>..\packages\structuremap-signed.3.1.9.463\lib\net40\StructureMap.dll</HintPath>
+      <HintPath>..\..\packages\structuremap-signed.3.1.9.463\lib\net40\StructureMap.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="StructureMap.Net4, Version=3.1.9.463, Culture=neutral, PublicKeyToken=e60ad81abae3c223, processorArchitecture=MSIL">
-      <HintPath>..\packages\structuremap-signed.3.1.9.463\lib\net40\StructureMap.Net4.dll</HintPath>
+      <HintPath>..\..\packages\structuremap-signed.3.1.9.463\lib\net40\StructureMap.Net4.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="StructureMap.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223, processorArchitecture=MSIL">
-      <HintPath>..\packages\structuremap.web-signed.3.1.6.186\lib\net40\StructureMap.Web.dll</HintPath>
+      <HintPath>..\..\packages\structuremap.web-signed.3.1.6.186\lib\net40\StructureMap.Web.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+      <HintPath>..\..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Threading.Tasks.Dataflow, Version=4.5.24.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Tpl.Dataflow.4.5.24\lib\portable-net45+win8+wpa81\System.Threading.Tasks.Dataflow.dll</HintPath>
+      <HintPath>..\..\packages\Microsoft.Tpl.Dataflow.4.5.24\lib\portable-net45+win8+wpa81\System.Threading.Tasks.Dataflow.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.Helpers.dll</HintPath>
+      <HintPath>..\..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.Helpers.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll</HintPath>
+      <HintPath>..\..\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNet.Razor.2.0.20710.0\lib\net40\System.Web.Razor.dll</HintPath>
+      <HintPath>..\..\packages\Microsoft.AspNet.Razor.2.0.20710.0\lib\net40\System.Web.Razor.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.dll</HintPath>
+      <HintPath>..\..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Deployment.dll</HintPath>
+      <HintPath>..\..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Deployment.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll</HintPath>
+      <HintPath>..\..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Xml.Linq" />
