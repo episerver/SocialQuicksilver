@@ -18,16 +18,18 @@ namespace EPiServer.Reference.Social.Reviews.Services
     {
         private readonly ICommentService commentService;
         private readonly IRatingService ratingService;
+        private readonly IRatingStatisticsService statisticsService;
 
         /// <summary>
         /// Constructor
         /// </summary>
         /// <param name="commentService">Episerver Social comment service</param>
         /// <param name="ratingService">Episerver Social rating service</param>
-        public ReviewService(ICommentService commentService, IRatingService ratingService)
+        public ReviewService(ICommentService commentService, IRatingService ratingService, IRatingStatisticsService statisticsService)
         {
             this.commentService = commentService;
             this.ratingService = ratingService;
+            this.statisticsService = statisticsService;
         }
 
         /// <summary>
@@ -109,7 +111,7 @@ namespace EPiServer.Reference.Social.Reviews.Services
                 }
             };
 
-            return this.ratingService.Get(statisticsCriteria).Results.FirstOrDefault();
+            return this.statisticsService.Get(statisticsCriteria).Results.FirstOrDefault();
         }
 
         /// <summary>
