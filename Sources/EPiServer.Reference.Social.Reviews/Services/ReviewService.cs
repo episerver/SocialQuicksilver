@@ -19,6 +19,8 @@ namespace EPiServer.Reference.Social.Reviews.Services
         private readonly ICommentService commentService;
         private readonly IRatingService ratingService;
         private readonly IRatingStatisticsService statisticsService;
+        private readonly CommentFilters commentFilters;
+        private readonly RatingStatisticsFilters ratingStatisticsFilters;
 
         /// <summary>
         /// Constructor
@@ -30,6 +32,8 @@ namespace EPiServer.Reference.Social.Reviews.Services
             this.commentService = commentService;
             this.ratingService = ratingService;
             this.statisticsService = statisticsService;
+            this.commentFilters = new CommentFilters();
+            this.ratingStatisticsFilters = new RatingStatisticsFilters();
         }
 
         /// <summary>
@@ -99,12 +103,9 @@ namespace EPiServer.Reference.Social.Reviews.Services
         /// <returns>Rating statistics for the product</returns>
         private RatingStatistics GetProductStatistics(EPiServer.Social.Common.Reference product)
         {
-            var statisticsCriteria = new Criteria<RatingStatisticsFilter>()
+            var statisticsCriteria = new Criteria
             {
-                Filter = new RatingStatisticsFilter()
-                {
-                    Targets = new[] { product }
-                },
+                Filter = this.ratingStatisticsFilters.Target.EqualTo(product),
                 PageInfo = new PageInfo()
                 {
                      PageSize = 1
@@ -119,14 +120,11 @@ namespace EPiServer.Reference.Social.Reviews.Services
         /// </summary>
         /// <param name="product">Reference identifying the product</param>
         /// <returns>Collection of reviews for the product</returns>
-        private IEnumerable<Composite<Comment, Review>> GetProductReviews(EPiServer.Social.Common.Reference product)
+        private IEnumerable<Comment<Review>> GetProductReviews(EPiServer.Social.Common.Reference product)
         {
-            var commentCriteria = new CompositeCriteria<CommentFilter, Review>()
+            var commentCriteria = new Criteria
             {
-                Filter = new CommentFilter
-                {
-                    Parent = product
-                },
+                Filter = this.commentFilters.Parent.EqualTo(product),
                 PageInfo = new PageInfo
                 {
                      PageSize = 20
@@ -137,7 +135,7 @@ namespace EPiServer.Reference.Social.Reviews.Services
                 }
             };
 
-            return this.commentService.Get(commentCriteria).Results;
+            return this.commentService.Get<Review>(commentCriteria).Results;
         }
 
         /// <summary>
