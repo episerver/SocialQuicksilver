@@ -122,9 +122,13 @@ namespace EPiServer.Reference.Social.Reviews.Services
         /// <returns>Collection of reviews for the product</returns>
         private IEnumerable<Comment<Review>> GetProductReviews(EPiServer.Social.Common.Reference product)
         {
+            var filters = new List<FilterExpression>();
+            filters.Add(this.commentFilters.Parent.EqualTo(product));
+            filters.Add(this.commentFilters.Extension.Type.Is<Review>());
+
             var commentCriteria = new Criteria
             {
-                Filter = this.commentFilters.Parent.EqualTo(product),
+                Filter = new AndExpression(filters),
                 PageInfo = new PageInfo
                 {
                      PageSize = 20
